@@ -1,0 +1,13 @@
+[package]
+name = "editor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.27"
+egui_dock = "0.12"
+shared = { path = "../shared" }
+scene = {path = "../shared/scene"}
+serialization = {path = "../shared/serialization"}
+runtime = {path = "../runtime"}
+wgpu = "0.19.4"
