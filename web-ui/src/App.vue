@@ -10,7 +10,7 @@ onMounted(async () => {
 
 <template>
   <header>
-    <canvas id="canvas"></canvas>
+    <canvas id="amoeba-canvas" class="viewport-canvas"></canvas>
     <div class="overlay">
       <h1>Amoeboculus Engine</h1>
     </div>
